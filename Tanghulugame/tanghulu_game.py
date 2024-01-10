@@ -228,6 +228,7 @@ def main():
                         screen.blit(ending_txt1, [400, 675])
                         if key !="":
                             index = 0
+                            timer = 0
                             
                 else:
                     screen.blit(Game_Over_bg,[0,0])
@@ -239,6 +240,7 @@ def main():
                         screen.blit(ending_txt1, [400, 675])
                         if key !="":
                             index = 0
+                            timer = 0
 
             if timer == 1:
                 index = 7
