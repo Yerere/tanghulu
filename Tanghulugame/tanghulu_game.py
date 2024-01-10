@@ -258,7 +258,7 @@ def main():
 
                     if combo == 5: #맥스콤보 글자 출력
                         combo_txt = font.render("MAX COMBO!!",True,(0, 0, 0))
-                        combo_txt = font.render("MAX COMBO!!",True,(255, 255, 255))           
+                        combo_txt1 = font.render("MAX COMBO!!",True,(255, 255, 255))           
                 
                     else:
                          combo_txt = font.render(str(combo) + " COMBO!!",True,(0, 0, 0))
